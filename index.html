@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Raaga</title>
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/cards.css">
+<link rel="html" href="Events.html">
+<link rel="html" href="folk.html">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.instagram-icon:hover,
+.facebook-icon:hover,
+.youtube-icon:hover{
+  opacity: 0.4;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="folk.html" class="w3-bar-item w3-button">Folk Dance</a>
+        <a href="Events.html" class="w3-bar-item w3-button">Events</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="folk.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FOLK DANCE</a>
+  <a href="Events.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EVENTS</a> 
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+<section id="home">
+  <div class="mySlides w3-display-container w3-center" >
+    <img src="Raaga Logo JPG.jpeg" style="width:75%;  height: 85%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p><b></b></p> 
+      <h3></h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slideshow-images/picture-1.jpg" style="width:75%;  height: 80%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p><b>Royal Days International Folk Dance Festival-2018</b></p> 
+      <h3>Hungary</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slideshow-images/picture-2.jpg" style="width:75%; height: 80%;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      
+      <p><b>International Kite Festival</b></p>  
+      <h3>AHMEDABAD</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slideshow-images/picture-3.jpg" style="width:75%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p><b>District Competition</b></p> 
+      <h3>GANDHINAGAR</h3>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slideshow-images/picture-4.jpg" style="width:75%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p style="color:black;"><b>National Folk Festival-2017</b></p>  
+      <h3 style="color:black;">KERALA</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slideshow-images/picture-5.jpg" style="width:75%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p><b>Shilparamam Arts & Crafts Festival-2022</b></p> 
+      <h3>HYDERABAD</h3>   
+    </div>
+  </div>
+</section>
+ 
+
+  <!-- RAAGA Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide">RAAGA</h2>
+    <p class="w3-opacity"><i>The Cultural Group Of Performing Art</i></p>
+    <p class="w3-justify">We are extremely proud of our Cultural and ethnic background.Our primary goal is to preserve and nuture the cultural  </p>
+    <p><centre>inheritance of Gujarat. Teaching, publishing and performing traditional
+      folk dances at national as well as international stage are the indispensable essentials of
+      Raaga. It contributes on cultural basis by participating in the various cultural programs
+      organized by the Government of Gujarat. Raaga promotes the essence of the various folk dances in the
+      interest of cultural inheritance of Gujarat like Raas, Garba, Sword Dance, Maniyaro, Rasdo,
+      Tippani, Tribal Dances, Hudo etc.<br/>_______________________________________________________________</centre></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <h4><p>HARSHAD SOLANKI</p></h4>
+        <h5><p>Founder & Choreographer</p></h5>
+        <img src="profile/harshad-solanki.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%; height: 25.3vh;">
+       <p>__________________________________________</p>
+      </div>
+      <div class="w3-third">
+        <h4><p>ARJUN RAJVANIYA</p></h4>
+        <h5><p >President</p></h5>
+        <img src="profile/arjun-rajvaniya.jpg" class="w3-round" alt="Random Name" style="width:60%; height: 28vh;">
+       <p>__________________________________________</p>
+      </div>
+      <div class="w3-third">
+        <h4><p>ANKIT PATNI</p></h4>
+        <h5><p >Treasurer</p></h5> 
+        <img src="profile/ankit-patni.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <p>__________________________________________</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">INTERNATIONAL TOURS </h2>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">2024<span class="w3-tag w3-red w3-margin-left">Canada & Europe</span></li>
+        <li class="w3-padding">Join Us<span class="w3-tag w3-red w3-margin-left"><a href="https://forms.gle/cXz5jJhSwwQudM1w9" target="_blank">Click here!</a></span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="tour-photos/hungary.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>HUNGARY</b></p>
+            <p class="w3-opacity">Aug 2018</p>
+            <p>Royal Days International Folk Dance Festival.</p>
+            <a href="https://youtube.com/@RaagaCulturalGroup?si=jjb56Vh69rPO63-l"><button class="w3-button w3-black w3-margin-bottom">Watch Performance</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="tour-photos/spain.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>SPAIN</b></p>
+            <p class="w3-opacity">Aug 2017</p>
+            <p> Closing ceremony of Festival Pirineos, JACA.</p>
+            <a href="https://youtu.be/UW7vB8F2o28?si=jy3MgbyzNvOPL7DD"><button class="w3-button w3-black w3-margin-bottom" >Watch Performance</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="tour-photos/Italy-3.jpg" alt="San Francisco" style="width:100%; height: 160px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Italy</b></p>
+            <p class="w3-opacity">Aug 2015</p>
+            <p>Opening ceremony of "ESTATE INTERNATIONAL DEL FOLKLORE ", Castrovillari</p>
+            <a href="https://youtu.be/xQQQjF-NRi4?si=1ig47EIXhfB8jCL1"><button class="w3-button w3-black w3-margin-bottom" >Watch Performance</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Here's how to reach us </i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Gandhinagar, Gujarat<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9426373590 <br>
+        <i class="fa fa-whatsapp" style="width:30px"></i> Number: +91 9687492700 <br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: harshad.solanki1976@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form  action="https://formsubmit.co/raaga1537@gmail.com" method="POST" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <input class="w3-input w3-border" type="tel" placeholder="Contact" required name="number" style="margin-top:8px;">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.instagram.com/Raaga_1537/"><img class="instagram-icon" src="instagram-removebg-preview.png" style="height: 30px; width: 30px; margin-bottom: 12px;"></a>
+  <a href="https://www.facebook.com/RaagaCulturalGroup"><img class="facebook-icon" src="facebook-logo-removebg.png" style="height: 45px; width: 45px; margin-bottom: 12px; margin-left: 30px; margin-right: 30px;"></a>
+  <a href="https://youtube.com/@RaagaCulturalGroup?si=jjb56Vh69rPO63-l"><img class="youtube-icon" src="youtbe-icon-removebg.png" style="height: 40px; width: 40px; margin-bottom: 12px;"></a>
+   <p class="w3-medium">Copyrights &#169; 2024 Raaga. All Rights Reserved. <br/> Powered by :Helly solanki.</p>
+ </footer>
+
+
+
+
+
+<!--scroll button-->
+<div onclick="scrollToTop()" class="scrollTop">Top</div>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+<script>
+  function scrollToTop(){
+    window.scrollTo(0, 0);
+  }
+
+</script>
+
+</body>
+</html>
